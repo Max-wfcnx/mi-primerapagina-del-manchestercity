@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRACTICA 7 - PSEUDO ELEMENTOS Y PSEUDO CLASES</title>    
+    <link rel="stylesheet" href="practica7.css">    
+
+</head>
+
+    
+    <body>
+        <header><!-- contenedor cabecera-->
+
+            <div id="logo"> <!--logo -->
+            <img src="imagen1.jpg" alt="logo city">
+            
+           </div>
+
+            <nav> <!--logo -->
+
+                <ul>    
+                    <li> <a href="#" alt="inicio"> Inicio </a>   </li>
+                    
+                    <li> <a href="#" alt="Quienes somos"> Quienes </a>   </li>
+
+                    <li> <a href="#" alt="inicio"> Contacto </a>   </li>
+
+
+                </ul>
+              <div class="limpiar"></div>
+            </nav>
+
+          
+   <div class="limpiar"></div>
+        </header>
+
+        <main><!-- contenedor principal -->
+            
+           <div id="principal"><!--columna principal -->
+
+                
+                <article><!--Nota o noticia 1 -->
+                    <h2> Bienvenido </h2>
+
+                    <img src="imagen3.jpg" >
+                    <h4> La Afición del Manchester city </h4>
+                    <span class="fecha">21-09-2021</span>
+                    <p>
+                    Conocidos como Citizens o Sky Blues, sus aficionados combinan una leal base local de clase trabajadora fiel incluso en las épocas de menor éxito del club con una audiencia global en constante crecimiento. En el estadio destacan colectivos como el 1894 Group en la Grada Sur para alentar, además de costumbres icónicas como cantar el himno "Blue Moon" y celebrar los goles bailando The Poznan de espaldas al campo.
+                    </p>
+                    <button><a href="https://www.stadiumseeker.com/es/stadiums/etihad/?utm_source=gemini">Leer más</a></button>
+                
+                </article>
+
+                  <article><!--Nota o noticia 2 -->
+
+
+                     <img src="imagen2.jpg" >
+                    <h4> El Estadio Etihad Stadium  </h4>
+                    <span class="fecha">04-04-2026</span>
+                    <p>
+                    Construido originalmente para los Juegos de la Mancomunidad de 2002 e inaugurado para el fútbol en 2003, el feudo del Manchester City es un recinto de categoría elite. Cuenta con capacidad para más de 53,000 espectadores con proyectos en marcha para superarla y destaca por su arquitectura ovalada con rampas en espiral y un terreno de juego con tecnología de césped híbrido.
+                    </p>
+                    <button><a href="https://en.wikipedia.org/wiki/Etihad_Stadium?utm_source=gemini#:~:text=City%20of%20Manchester%20Stadium.%20Etihad%20Stadium.%20%22The,(2002%20Commonwealth%20Games)%20Executive%20suites.%2070.%20Surface.">Leer más</a></button>
+
+                </article>
+
+                  <article><!--Nota o noticia 3 -->
+                     <img src="imagen4.jpg" >
+                    <h4> Centro de Alto Rendimiento City Football Academy </h4>
+                    <span class="fecha">11-05-2024</span>
+                    <p>
+                     Situado a pocos pasos del estadio e interconectado por un puente peatonal, el Etihad Campus alberga una de las instalaciones de entrenamiento más avanzadas del mundo. Con más de 16 campos de fútbol con césped adaptado a distintas condiciones de la Premier League, residencia de lujo, áreas médicas de última generación y un estadio propio para el equipo femenino y las categorías inferiores Joie Stadium, es el núcleo del éxito futbolístico e institucional del club.
+                    </p>
+                    <button><a href="https://soccercampsinternational.com/es/campamentos-futbol-inglaterra/campamentos-de-futbol-manchester-city/">Leer más</a></button>
+                 </article>
+           </div> 
+        
+           <aside><!--barra lateral -->
+                
+                <div class="widget"> <!-- widget1 -->
+                <h4> Enlaces de interes </h4>
+                    <ul>    
+                    <li> <a href="#" alt="inicio"> Inicio </a>   </li>
+                    
+                    <li> <a href="#" alt="Quienes somos"> Quienes </a>   </li>
+
+                    <li> <a href="#" alt="inicio"> Contacto </a>   </li>
+        
+                    </ul>        
+
+                </div>   
+
+                 <div class="widget"> <!-- widget1 -->
+                <h4> Video de Youtube </h4>
+
+                <iframe  width="280"height="170" src="https://www.youtube.com/embed/usb21dYrYtI?si=C6k5yZQYoMZUIelI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>    
+                
+                <div class="widget"> <div class="x-header"><img src="imagen1.jpg" alt="Logo Manchester City"><span>Noticias del club</span>
+                
+                </div>
+
+                <div class="x-iframe-wrapper"> <a class="twitter-timeline" data-theme="dark" href="https://x.com/ManCityUS">leer mas</a> 
+                
+               </div>
+
+
+                 <div class="widget"> <!-- widget 3 -->
+                <h4> Suscribete para más </h4>
+                <form action="#" method="get"> <!-- formulario de suscripcion -->
+                    <fieldset>
+                 <legend>Deja tus datos:</legend>
+                 <label for="nombre">Nombre:</label>
+                   <input type="text" id="nombre" name="nombre">
+                <label for="email">Email:</label>
+                    <input type="emai" id="email" name="email">
+                <button> Enviar </button>
+                </fieldset>
+                </form>
+
+                </div>   
+
+           </aside><!-- fin barra lateral -->
+
+        <div class="limpiar"></div>
+        </main>
+
+        <footer> <!-- contenedor pie de pagina -->
+        
+            <section><!-- footer columna1-->
+                <h4>HISTORIA DEL MANCHESTER CITY</h4>
+                <p> El Manchester City Football Club es una institución deportiva profesional de Inglaterra encargada de competir en la Premier League y en torneos internacionales de la UEFA, enfocada en el desarrollo del fútbol de alta competencia, la formación de talentos en su Ciudad Deportiva y la promoción global de la cultura e identidad futbolística de la ciudad de Mánchester. </p>
+            
+            </section>
+            
+            <section><!-- footer columna2-->
+                <h4>INFORMACION</h4>
+                <ul>    
+                    <li> <a href="#" alt="inicio"> Inicio </a>   </li>
+                    
+                    <li> <a href="#" alt="Quienes somos"> Quienes </a>   </li>
+
+                    <li> <a href="#" alt="inicio"> Contacto </a>   </li>
+
+
+                </ul>            
+            </section>
+
+           <section><!-- footer columna3-->
+                <h4>UBICACION</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.1772109304607!2d-2.2003736000000003!3d53.483163399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb10dcc950ae3%3A0x549a8dcce67a876a!2sEtihad%20Stadium!5e0!3m2!1ses!2sbo!4v1790021179538!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>            
+                            
+            </section>
+            
+        
+          <div class="limpiar"></div>
+        </footer>
+            
+   
+    </body>
+
+</html>
